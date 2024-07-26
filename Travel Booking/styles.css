@@ -1,0 +1,292 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.hero-text button {
+    background-color: #fff;
+    color: #ff7e5f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.hero-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Personas Section */
+.personas {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.personas h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.persona-grid {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+}
+
+.persona {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 10px; /* Add some margin between personas */
+}
+
+.persona img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Journey Maps Section */
+.journey-maps {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.journey-maps h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.journey-map {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.journey-map img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Plan Selection Page */
+.plan-selection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.plan-card {
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.plan-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.plan-card h2 {
+    margin: 10px 0;
+}
+
+.plan-card a {
+    display: block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.plan-card a:hover {
+    background: #0056b3;
+}
+
+/* Plan Details Page */
+.plan-details {
+    text-align: center;
+    margin: 20px;
+}
+
+.plan-details h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.plan-details img {
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.plan-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan-details ul li {
+    background: #f9f9f9;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Popup Forms */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    position: relative;
+}
+
+.popup-content h2 {
+    margin-top: 0;
+}
+
+.popup-content .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-content form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.popup-content form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.popup-content form button:hover {
+    background: #0056b3;
+}
